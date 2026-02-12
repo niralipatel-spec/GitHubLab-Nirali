@@ -1,6 +1,7 @@
 name: Workflow 2 - Multi Platform
 
 on:
+  workflow_dispatch: 
   pull_request:
     branches: [ "main" ]
 
